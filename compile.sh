@@ -14,14 +14,14 @@ sed -i 's,\\newcommand{\\inEnglish}\[1\]{},\\newcommand{\\inEnglish}\[1\]{#1},' 
 sed -i 's,\\newcommand{\\inFrench}\[1\]{#1},\\newcommand{\\inFrench}\[1\]{},' cv-bold.tex
 
 pdflatex cv-bold.tex
-mv -f cv-bold.pdf vincent_fournier_cv_en.pdf
+mv -f cv-bold.pdf gregory_saabas_cv_en.pdf
 
 # Set french (default)
 sed -i 's,\\newcommand{\\inEnglish}\[1\]{#1},\\newcommand{\\inEnglish}\[1\]{},' cv-bold.tex
 sed -i 's,\\newcommand{\\inFrench}\[1\]{},\\newcommand{\\inFrench}\[1\]{#1},' cv-bold.tex
 
 pdflatex cv-bold.tex
-mv -f cv-bold.pdf vincent_fournier_cv_fr.pdf
+mv -f cv-bold.pdf gregory_saabas_cv_fr.pdf
 
 # Reset to english for CVS
 sed -i 's,\\newcommand{\\inEnglish}\[1\]{},\\newcommand{\\inEnglish}\[1\]{#1},' cv-bold.tex
