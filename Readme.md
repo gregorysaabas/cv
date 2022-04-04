@@ -1,10 +1,6 @@
 
-ntfournier / cv
+gregory.saabas / cv
 ===============
-
-[English version](https://github.com/ntfournier/cv/raw/master/vincent_fournier_cv_en.pdf)
-
-[Version française](https://github.com/ntfournier/cv/raw/master/vincent_fournier_cv_fr.pdf)
 
 ## How to compile
 ```sh
